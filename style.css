@@ -1,0 +1,28 @@
+body {
+padding: 0px 12px;
+position: absolute;
+left: 0px;
+right: 0px;
+top: 12px;
+bottom: 67px;
+
+}
+
+.content-body {
+
+width: 100%;
+background: #FFFFFF;
+box-shadow: 0px 0px 10px #7A7A7A, -2px -2px 6px #000000, 2px 2px 6px #000000;
+border-radius: 35px;
+padding-bottom: 30px;
+
+
+}
+
+
+
+
+
+
+
+
