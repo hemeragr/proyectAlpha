@@ -1,104 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="animacion.js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>About Me</title>
   </head>
 
-
-<body>
+  <body>
     <article class="content-body">
-        <header>
-            <div class="button-play">
-                <button> > </button>
-             </div>
-            <div class="box-about">
-                <p class="text-orange">About Me</p>
-            </div>
-        </header>
+      <header>
+        <button type="button" id="myBtn"></button>
+        <div class="box-about">
+          <p class="text-orange">About Me</p>
+        </div>
+      </header>
 
-        <main class="bg-photo">
-            
-                <div class="box-name">
-                    <h1 class="name">H</h1><h1 class="name">E</h1><h1 class="name">M</h1><h1 class="name">E</h1><h1 class="name">R</h1><h1 class="name">A</h1>
-                </div>
+      <main
+        class="bg-photo" alt="Foto de Hemera comiendose un donut">
+        <div class="photo vibracion" id="myDiv"></div>
 
-        </main>
+        <div class="box-name">
+          <h1 class="name">H</h1>
+          <h1 class="name">E</h1>
+          <h1 class="name">M</h1>
+          <h1 class="name">E</h1>
+          <h1 class="name">R</h1>
+          <h1 class="name">A</h1>
+        </div>
+      </main>
 
-        <section class="skills" alt="ilustración de fondo">
+      <section class="skills" alt="ilustración de fondo">
+        <div class="description titles">
+          <h1 class="text-orange titulo">
+            Multidisciplinary Digital Designer & Illustrator
+          </h1>
 
-            <p class="text-orange">My code library</p>
+          <p class="subtitulo">
+            <b>Hey, hola, hola! 👋 </b>
+            Me llamo Hemera y después de graduarme en Bellas Artes, he
+            desarrollado una visión equilibrada donde el diseño y el arte
+            conviven de manera armónica. Esto me permite llevar cualquier
+            proyecto al mundo digital de manera eficiente.
+          </p>
+        </div>
 
-            <div class="description">
+        <div class="description">
+          
+          <ul class="list-skills">
+            <li>UX/UI Design</li>
+            <li>Front-end Development</li>
+            <li>Digital Marketing</li>
+            <li>WordPress</li>
+            <li>Graphic Design</li>
+            <li>Illustration</li>
+          </ul>
 
-                <p><span>< header></span>Desde que tengo conciencia los colores se han impregnado en mí. Nací en Andorra un 18 de Octubre 1996, pero llevo en España desde los 4 años. Especificamente en un pequeño barrio de València, llamado “El Barrio de La Luz”. Puede sonar cómico porque lo que escasea es la Luz.<span>< /heder></span></p>
-                <p><span>< body></span>Al terminar Bachillerato de Artes en el IES Misericordia 26 en 2016, entré en la facultad de Bellas Artes de la Universitat Politècnica de València, en la que me formé en la especialida de de Diseño gráfico, Diseño Web e Ilustración digital. Estás siempre me han llamado especialmente la atención, por eso me encuentro realizando un Postgrado especializado en Diseño y Desarrollo Web front-end  en la Escuela Profesional de Arte y Tecnologia.<span>< /body></span></p>
-                <p><span>< footer></span>Mi actividad artística se basa tanto en la investigación dentro del campo del diseño gráfico como del diseño Web. Esto se debe a mi gran interés por poder transmitir un mensaje sin necesidad de escribirlo, crear composiciones donde el orden y la armonía conviben sin crear el caos. Con lo cual me comprometo a crear un código capaz de expresar momentos y sentimientos, imaginando una experiencia única en la que el espectador se sienta sumergido en la Web.<span>< /footer></span></p>
-
-            </div>
-
-            <div class='slider'>
-                <div class="circles ">
-                    <h2>Me encanta dormir.</h2>
-                    <p>Durmiendo se me ocurren las mejores ideas.</p>
-                </div>
-                <div class="circles">
-                    <h2>Soy la chef de la casa.</h2>
-                    <p>Disfruto mucho cocinando porque disfruto aún más comiendo.</p>
-                </div>
-                <div class="circles">
-                    <h2>No tengo la nariz roja.</h2>
-                    <p>Pero cuando menos te lo esperes te estare sacando una sonrisa.</p>
-                </div>
-            </div>
-
-            
+          <div class="description">
+          
+            <ul class="tools-list">
+              <li class="n1">GitHup</li>
+              <li class="n2">Git</li>
+              <li class="n3">VsCode</li>
+              <li class="n4">CodePen</li>
+            </ul>
+          </div>
 
 
-        </section>
-
-        <section>
-
-        <div class="slider adj">
-            <h2>Empathy</h2>
-            <h2>Creativity</h2>
-            <h2>Artistic</h2>
-            <h2>Imaginative</h2>
-            <h2>Communication</h2>
-            <h2>Motivation</h2>
-            <h2>Responsibility</h2>
-            <h2>Support</h2>
-            <h2>Amusing</h2>
-            <h2>Sociable</h2>
+          <h2 class="text-orange habilidades">
+            <b>Diseño, marketing y programación</b> en un solo paquete: ¡Mira lo que
+            puedo hacer con mis habilidades múltiples!
+          </h2>
 
         </div>
 
-        <div class="animated-bars">
 
+        <div class="description">
 
+          <section class="animated-percents">
+            <div class="animated-svg">
+              <!-- HTML Chart -->
+              <figure class="chart" data-percent="75">
+                <figcaption>HTML</figcaption>
+                <img
+                  class="html"
+                  src="https://dl.dropboxusercontent.com/s/68gv23q4y5qyq52/html5.svg"
+                />
+                <svg width="190" height="190">
+                  <circle
+                    class="outer"
+                    cx="28"
+                    cy="25"
+                    r="20"
+                    transform="rotate(-90, 95, 95)"
+                  />
+                </svg>
+              </figure>
+
+              <!-- CSS Chart -->
+              <figure class="chart" data-percent="75">
+                <figcaption>CSS</figcaption>
+                <img
+                  class="css"
+                  src="https://dl.dropboxusercontent.com/s/gftbpqje9h2jvlv/css3.svg"
+                />
+                <svg width="200" height="200">
+                  <circle
+                    class="outer"
+                    cx="25"
+                    cy="25"
+                    r="20"
+                    transform="rotate(-90, 95, 95)"
+                  />
+                </svg>
+              </figure>
+
+              <!-- Javascript Chart -->
+              <figure class="chart" data-percent="25">
+                <figcaption>Javascript</figcaption>
+                <img
+                  class="javascript"
+                  src="https://dl.dropboxusercontent.com/s/jsp3rsberc4q650/javascript.svg"
+                />
+                <svg width="200" height="200">
+                  <circle
+                    class="outer"
+                    cx="25"
+                    cy="25"
+                    r="20"
+                    transform="rotate(-90, 95, 95)"
+                  />
+                </svg>
+              </figure>
+
+              <!-- wordPress -->
+              <figure class="chart" data-percent="25">
+                <figcaption>WordPress</figcaption>
+                <img class="wordpress" src="./img/svg/Wordpress-Logo.svg" />
+                <svg width="200" height="200">
+                  <circle
+                    class="outer"
+                    cx="25"
+                    cy="25"
+                    r="20"
+                    transform="rotate(-90, 95, 95)"
+                  />
+                </svg>
+              </figure>
+
+              <!-- figma -->
+              <figure class="chart" data-percent="50">
+                <figcaption>Figma</figcaption>
+                <img class="figma" src="./img/svg/Figma-logo.svg" />
+                <svg width="200" height="200">
+                  <circle
+                    class="outer"
+                    cx="25"
+                    cy="25"
+                    r="20"
+                    transform="rotate(-90, 95, 95)"
+                  />
+                </svg>
+              </figure>
+
+              <!-- indesign -->
+              <figure class="chart" data-percent="75">
+                <figcaption>Adobe</figcaption>
+                <img
+                  class="adobe"
+                  src="./img/svg/Adobe.svg"
+                />
+                <svg width="200" height="200">
+                  <circle
+                    class="outer"
+                    cx="25"
+                    cy="25"
+                    r="20"
+                    transform="rotate(-90, 95, 95)"
+                  />
+                </svg>
+              </figure>
+
+              <!-- php -->
+              <figure class="chart" data-percent="25">
+                <figcaption>Php</figcaption>
+                <img
+                  class="php"
+                  src="./img/svg/php.svg"
+                />
+                <svg width="200" height="200">
+                  <circle
+                    class="outer"
+                    cx="25"
+                    cy="25"
+                    r="20"
+                    transform="rotate(-90, 95, 95)"
+                  />
+                </svg>
+              </figure>
+
+              <!-- illustrator -->
+              <figure class="chart" data-percent="50">
+                <figcaption>Illustrator</figcaption>
+                <img
+                  class="illustrator"
+                  src="./img/svg/Adobe_Illustrator_CC_icon.svg"
+                />
+                <svg width="200" height="200">
+                  <circle
+                    class="outer"
+                    cx="25"
+                    cy="25"
+                    r="20"
+                    transform="rotate(-90, 95, 95)"
+                  />
+                </svg>
+              </figure>
+            </div>
+          </section>
         </div>
 
-        </section>
+        <div class="description-soft-skills">
+          <h2 class="text-orange">Soft skills</h2>
 
+          <div class="slider adj sombra">
+            <p>
+              Soy una persona persistente y dedicada, con las habilidades
+              necesarias para trabajar en equipo y asumir responsabilidades en
+              proyectos. Mi curiosidad y creatividad me impulsan a buscar
+              siempre nuevas soluciones y enfoques innovadores, y mi sentido del
+              humor y sensibilidad me permiten conectar con mis compañeros de
+              equipo de manera efectiva. Trabajar en equipo es una de mis
+              principales fortalezas, ya que entiendo que la colaboración y la
+              comunicación eficaz son fundamentales para el éxito de cualquier
+              proyecto. Soy muy flexible y estoy dispuesta a adaptarme a los
+              cambios y las nuevas situaciones, con un toque de humor que relaja
+              el ambiente cuando sea necesario. Estoy segura de que mis
+              habilidades y valores serán una gran contribución en cualquier
+              proyecto en el que tenga la oportunidad de participar, y si algo
+              se pone aburrido, siempre tendré una ocurrencia para alegrar el
+              ambiente.
+            </p>
+          </div>
+        </div>
+
+        <div class="description-soft-skills-2">
+          <h2 class="text-orange">
+            Si no estoy delante de la pantalla me puedes encontrar
+          </h2>
+
+          <ul>
+            <li>Perdida en una lista de spotify</li>
+            <li>Soñando con mis próximos proyectos</li>
+            <li>Preparando mi próximo festín</li>
+            <li>Dibujando para eludir la realidad</li>
+            <li>
+              Si estoy en tu equipo, puedes olvidarte del aburrimiento, soy un
+              meme andante, siempre tengo alguna broma o chiste para hacer reír.
+            </li>
+          </ul>
+        </div>
+
+        <h2 class="text-orange">My code library</h2>
+
+        <div class="bio">
+          <div class="description-bio1 sombra">
+            <p>
+              <span>< header></span>Desde que tengo uso de razón, los colores
+              son mi obsesión. Nací en Andorra el 18 de Octubre de 1996, pero
+              llevo viviendo en España desde los 4 años, específicamente en un
+              pequeño barrio de Valencia llamado "El Barrio de La Luz", jajaja,
+              ironicamente no hay mucha luz por allí pero a mi me iluminan los
+              colores.<span>< /heder></span>
+            </p>
+          </div>
+
+          <div class="description-bio2 sombra">
+            <p>
+              <span>< body></span>Después de terminar el bachillerato en Artes
+              en el IES Misericordia 26 en 2016, me lancé a estudiar Bellas
+              Artes en la Universitat Politècnica de València, donde me
+              especialicé en Diseño Gráfico, Diseño Web e Ilustración digital.
+              Estas áreas siempre me han llamado la atención, así que decidí
+              seguir mi formación con un posgrado en Diseño y Desarrollo Web
+              Front-end en la Escuela Profesional de Arte y Tecnología.<span
+                >< /body></span
+              >
+            </p>
+          </div>
+
+          <div class="description-bio3 sombra">
+            <p>
+              <span>< footer></span>Mi arte se basa en la combinación del diseño
+              gráfico y el diseño web, me encanta la idea de transmitir un
+              mensaje sin necesidad de palabras. Me gusta jugar con la armonía y
+              el orden en mis creaciones, para crear una experiencia única para
+              el espectador. Me comprometo a crear un código que expresa
+              momentos y sentimientos y que te sumerja en la Web.<span
+                >< /footer></span
+              >
+            </p>
+          </div>
+        </div>
+
+        <!--  <div class="slider">
+          <div class="circles">
+            <h2>Me encanta dormir.</h2>
+            <p>Durmiendo se me ocurren las mejores ideas.</p>
+          </div>
+          <div class="circles">
+            <h2>Soy la chef de la casa.</h2>
+            <p>Disfruto mucho cocinando porque disfruto aún más comiendo.</p>
+          </div>
+          <div class="circles">
+            <h2>No tengo la nariz roja.</h2>
+            <p>
+              Pero cuando menos te lo esperes te estaré sacando una sonrisa.
+            </p>
+          </div>
+        </div>
+
+        -->
+      </section>
     </article>
 
     <footer>
-
-        <div class="logos  ">
-            <div class="caja rebote-in vibracion"> <img src="./img/Ilustración_sin_título 16.png" alt=""> </div>
-            <div class="caja rebote-in vibracion" > <img src="./img/Ilustración_sin_título 15.png" alt=""> </div>
-            <div class="caja rebote-in vibracion"> <img src="./img/Ilustración_sin_título 11.png" alt=""> </div>
-            <div class="caja rebote-in vibracion"> <img src="./img/Ilustración_sin_título 12.png" alt=""> </div>
-            <div class="caja rebote-in vibracion"> <img src="./img/Ilustración_sin_título 13.png" alt=""> </div>
+      <div class="logos">
+        <div class="caja rebote-in vibracion">
+          <a href="https://wa.me/34665996221"
+            ><img
+              src="./img/Ilustración_sin_título 16.png"
+              alt="contacto whatsapp"
+          /></a>
         </div>
-
+        <div class="caja rebote-in vibracion">
+          <a href="https://twitter.com/eroina_h"
+            ><img
+              src="./img/Ilustración_sin_título 15.png"
+              alt="perfil de twiter"
+          /></a>
+        </div>
+        <div class="caja rebote-in vibracion">
+          <a href="tel:+34665996221"
+            ><img
+              src="./img/Ilustración_sin_título 11.png"
+              alt="numero de telefono"
+          /></a>
+        </div>
+        <div class="caja rebote-in vibracion">
+          <a href="mailto:hemeraguerrero15@gmail.com"
+            ><img
+              src="./img/Ilustración_sin_título 12.png"
+              alt="correo electronico"
+          /></a>
+        </div>
+        <div class="caja rebote-in vibracion">
+          <a href="https://www.instagram.com/hemera_gr/"
+            ><img
+              src="./img/Ilustración_sin_título 13.png"
+              alt="perfin de instagram"
+          /></a>
+        </div>
+      </div>
     </footer>
 
-</body>
+
+
+
+    <script defer src="animacion.js"></script>
+
+  </body>
 </html>
