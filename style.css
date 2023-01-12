@@ -3,10 +3,7 @@
 }
 
 body {
-  padding: 0px 12px;
   position: absolute;
-  left: 0px;
-  right: 0px;
   top: 32px;
   bottom: 67px;
 }
@@ -22,7 +19,7 @@ body {
 header {
   width: 100%;
   height: 61px;
-  padding-top:20px;
+  padding-top: 20px;
   display: block;
 }
 
@@ -34,7 +31,6 @@ header {
   background-position: center;
   display: flex;
   background-image: url("./img/fonfo-animacion.png");
-  
 }
 
 .vibracion {
@@ -42,16 +38,30 @@ header {
 }
 
 @keyframes vibracion {
-  10%, 30%, 50%, 70%, 90% {
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
     transform: translateX(-1px);
   }
-  20%, 40%, 60%, 80% {
+  20%,
+  40%,
+  60%,
+  80% {
     transform: translateX(1px);
   }
-  5%, 25%, 45%, 65%, 85% {
+  5%,
+  25%,
+  45%,
+  65%,
+  85% {
     transform: translateY(-1px);
   }
-  15%, 35%, 55%, 75% {
+  15%,
+  35%,
+  55%,
+  75% {
     transform: translateY(1px);
   }
 }
@@ -61,6 +71,7 @@ button {
   cursor: pointer;
   width: 45px;
   height: 45px;
+  z-index: 30;
   display: flex;
   background-position: center;
   background-repeat: no-repeat;
@@ -78,17 +89,13 @@ button:hover {
   background-image: url(./img/icono-play-hover.png);
 }
 
-
-
-
 .bg-photo {
   width: 100%;
   background-size: cover;
   background-position: center;
   display: flex;
   background-image: url("./img/fondo.png");
-} 
-
+}
 
 .box-name {
   height: auto;
@@ -122,7 +129,6 @@ button:hover {
   text-align: right;
   margin-right: 15px;
 }
-
 
 .skills {
   width: 100%;
@@ -164,6 +170,8 @@ button:hover {
   padding-top: 20px;
 }
 
+
+
 .description .subtitulo {
   margin-top: -100px;
   font-size: 1.2em;
@@ -175,13 +183,12 @@ button:hover {
 }
 
 .habilidades {
-  margin-top: -18px;
+  margin-top: -16px;
   padding: 65px;
   color: #333;
   font-size: 1em;
   font-weight: 100;
-  border-top: 0.1px solid #333;;
-
+  border-top: 0.1px solid #333;
 }
 
 .habilidades b {
@@ -217,10 +224,12 @@ button:hover {
 .list-skills {
   margin-top: 0px;
   margin-bottom: -50px;
+  font-weight: 100;
 }
 
 .description .list-skills li:hover {
   animation: rebote-out 1s 2;
+  font-weight: 400;
 }
 
 @keyframes rebote-out {
@@ -236,7 +245,6 @@ button:hover {
     opacity: 0;
   }
 }
-
 
 .description .n1::before {
   content: "";
@@ -255,12 +263,12 @@ button:hover {
   background-image: url(./img/svg/codepen.svg);
 }
 
-
 .card {
+  font-family: "Quicksand";
   background-color: hsl(0, 0%, 97%, 90%);
   padding: 1em;
   margin: 0;
-
+  font-weight: 100;
 }
 
 .card p {
@@ -273,9 +281,107 @@ button:hover {
 .highlight {
   color: #00b0b9;
   padding: 0 4px;
+  font-weight: 400;
 }
 
+#text-container {
+  position: relative;
+}
 
+.text-container {
+  position: relative;
+  text-align: center;
+  background-color: hsl(0, 0%, 97%, 90%);
+  padding: 20px;
+  border-bottom: 0.1px solid #333;
+}
+
+.text-container h1 {
+  font-size: 39px;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  font-weight: 300;
+  color: #00b0b9;
+}
+
+.text-container2 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.5em;
+  padding-inline-start: 0px;
+}
+
+.text-container .img1 {
+  font-size: 0.81em;
+  background-image: url(./img/spotify.jpg);
+  background-size: cover;
+}
+
+.text-container .img2 {
+  background-image: url(./img/dream.jpg);
+  background-size: cover;
+}
+
+.text-container .img3 {
+  background-image: url(./img/food.jpg);
+  background-size: cover;
+}
+
+.text-container .img4 {
+  background-image: url(./img/draw.jpg);
+  background-size: cover;
+}
+
+.text-container .img5 {
+  background-image: url(./img/team.jpg);
+  background-size: cover;
+}
+.text-container li {
+  max-width: 100px;
+  min-height: 40px;
+  height: auto;
+  line-height: 1.1;
+  list-style-type: none;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 50px #000000, -1px -1px 50px #000000, -0.2px -0.2px 1px #000;
+  padding: 30px;
+  padding-top: 5%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.text-container li:hover {
+  text-shadow: 4px 4px 20px #000000, -4px -4px 20px #000000, 1px 1px 10px #000, -1px -1px 10px #000;
+  background-color: hsl(0, 0%, 0%, 20%);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0), -1px -1px 2px rgba(0, 0, 0) ;
+
+}
+
+.text-container .ultim-text {
+  max-width: 330px;
+  min-height: 150px;
+}
+
+.text-container li span {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1;
+}
+
+.text-code {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  margin-top: -20px;
+  padding: 40px;
+  color: #333;
+  line-height: 1.4;
+  text-align: center;
+  margin: 20px;
+}
 
 .bio p span {
   font-family: "Open Sans", sans-serif; /* cambia la tipografía del párrafo */
@@ -337,24 +443,15 @@ button:hover {
 
 } */
 
-
 .animated-percents {
   padding: 10px;
   margin: 10px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 30px;
-
-}
-
-
-.description-soft-skills h2 {
-  font-size: 1.5em;
+ 
 
 }
 
 
 /*Footer*/
-
 
 footer {
   width: 100%;
@@ -400,9 +497,7 @@ footer {
 
 /*  Fin footer */
 
-
 /* PORCENTAJES Y CIRCULOS ANIMADOS*/
-
 
 .animated-svg {
   text-align: center;
