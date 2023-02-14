@@ -89,7 +89,7 @@ button {
 button:hover {
   background-color: grey;
   color: #00b0b9;
-  border: 2px solid #00b0b9;
+  border: 2px solid hsl(183, 100%, 36%);
   background-image: url(./img/icono-play-hover.png);
 }
 
